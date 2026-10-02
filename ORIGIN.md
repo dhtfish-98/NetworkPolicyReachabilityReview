@@ -1,5 +1,7 @@
 # Origin and implementation scope
 
+The new independent implementation is authored by **dhtfish98** (package version **0.1.2**). Upstream works retain their original attribution and license notices in this document and `UPSTREAM_LICENSE`.
+
 NetworkPolicyReachabilityReview independently implements this selected scope: Complete declared Kubernetes networking.k8s.io/v1 NetworkPolicy profile evaluated offline against a bounded topology and explicit directional connection questions.
 
 The research source is [np-guard/network-config-analyzer](https://github.com/np-guard/network-config-analyzer) at fixed commit `1b9bb91dbed20d172396e28e77a32d27f0a4dc50`. Source archive SHA-256: `1d4b1f49930cc899c2e5efdefaed513be25160c7115aa831e19cdeefe5106c12`. Its license is Apache-2.0; the exact source license notice is retained as `UPSTREAM_LICENSE`. The new application code and documentation are licensed under MIT (`LICENSE`). The upstream application is neither imported nor executed by the production package. No upstream application source is bundled in the production package.

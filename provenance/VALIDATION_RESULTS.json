@@ -1,27 +1,20 @@
 {
   "name": "NetworkPolicyReachabilityReview",
-  "group": "identity",
+  "version": "0.1.2",
   "status": "PASS",
-  "version": "0.1.1",
   "test_count": 20,
-  "source_code_sha256": "01377cdb0e694a31e0f535e7dd76ee32166bea34f677f0308749164789a5f4d5",
-  "wheel_sha256": "08f75869a9780a3e026dc33b268751ed4efe0419f9f749e6754bdb1466b4ba98",
-  "source_wheel_installed_bytes": "PASS",
-  "licenses": "PASS",
-  "dependency_check": "PASS",
-  "verified_utc": "2026-10-02T11:31:46.769103+00:00",
-  "wheel": "cvp_network_policy_reachability_review-0.1.1-py3-none-any.whl",
-  "verification": "Fresh per-project environment; wheel/source/installed runtime byte comparison; complete installed unittest suite; pip dependency check; license byte checks",
-  "runtime_platform": "Python 3.14 macOS arm64; remote Linux CI recorded separately",
+  "wheel_sha256": "b4b47539f1cf131aa7ed3b281b3b67dff2944c40f46c2338a33433fb1911fc2b",
+  "author": "dhtfish98",
+  "wheel": "cvp_network_policy_reachability_review-0.1.2-py3-none-any.whl",
+  "verification": "Rebuilt wheel, separate installed tests, package author metadata, runtime and retained third-party notice byte verification",
+  "record_kind": "Attribution patch verification",
   "application_qualification": "OPEN",
   "whole_upstream_equivalence": "OPEN",
-  "effective_deployed_protection": "OPEN",
-  "record_kind": "Current repaired release verification",
   "historical_initial_release_comparison": {
     "reference": "official Kubernetes NetworkPolicy API and concept semantic fixtures",
     "independent_expected_results": "namespace AND pod, union, ingress and egress intersection, named ports, ipBlock except, default empty egress; operation budget",
     "semantic_test_count": 5,
     "live_CNI_behavior": "OPEN"
   },
-  "comparison_limit": "Initial fixed vectors only; see VALIDATION.md for additional source re-audit vectors. No full upstream equivalence."
+  "comparison_limit": "Initial fixed vectors only; not full upstream equivalence."
 }

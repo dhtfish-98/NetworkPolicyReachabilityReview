@@ -1,5 +1,7 @@
 # NetworkPolicyReachabilityReview
 
+New implementation author: **dhtfish98**. Package version: **0.1.2**.
+
 Complete declared Kubernetes networking.k8s.io/v1 NetworkPolicy profile evaluated offline against a bounded topology and explicit directional connection questions.
 
 This is an independently implemented, complete selected offline input profile. It is not an equivalent rewrite of the entire upstream platform. This static policy model uses the Python standard library; no upstream application is called.

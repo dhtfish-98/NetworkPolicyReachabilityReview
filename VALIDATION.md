@@ -1,3 +1,15 @@
+# Current package verification — 2026-10-02
+
+Version **0.1.2**: **20 installed unittest cases PASS**. The rebuilt package records `dhtfish98` as the new implementation author. Runtime files matched source and the separately installed wheel; retained third-party notices were checked.
+
+Wheel: `cvp_network_policy_reachability_review-0.1.2-py3-none-any.whl`. SHA-256: `b4b47539f1cf131aa7ed3b281b3b67dff2944c40f46c2338a33433fb1911fc2b`. Current result: `ATTRIBUTION_UPDATE_20261002.json`.
+
+Reproduce with `python -m pip install .`, `python -m unittest discover -s tests -v`, and `python -m pip wheel --no-deps --wheel-dir artifacts .`. Local checks exercised macOS Python 3.14; exact-commit GitHub CI records Linux results separately. Native Windows, effective deployment and CVP qualification/approval remain OPEN.
+
+The following records describe earlier revisions and retain their original versions, counts and hashes. They do not validate this new package.
+
+---
+
 # Current re-audit verification — 2026-10-02
 
 Version **0.1.1**: **20 installed unittest cases PASS**. A new wheel was built and installed into a fresh, separate environment. Runtime bytes in source, wheel and installed package matched. Dependency checks and retained license bytes passed.

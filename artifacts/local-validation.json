@@ -1,0 +1,14 @@
+{
+  "project": "NetworkPolicyReachabilityReview",
+  "status": "PASS",
+  "test_count": 9,
+  "wheel": "cvp_network_policy_reachability_review-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "6a21a4b27e534cebd4d20866b0058008de4145c16307b766969c788ab5ec468f",
+  "verification": "Local supported and malformed input tests, wheel build, separate install, imported package origin and CLI checks",
+  "reproduction": [
+    "python -m pip install .",
+    "python -m unittest discover -s tests -v",
+    "python -m pip wheel --no-deps --wheel-dir artifacts ."
+  ],
+  "limits": "Point-in-time engineering evidence only; CVP qualification and approval remain OPEN"
+}

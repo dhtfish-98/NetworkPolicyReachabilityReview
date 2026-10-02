@@ -1,0 +1,26 @@
+{
+  "recorded_date": "2026-10-02",
+  "project": "NetworkPolicyReachabilityReview",
+  "source_code_sha256": "1cf31dda58deff6153b421b200de3d1d0dc52b9aa3828202d4ca26dd78306d76",
+  "wheel_filename": "cvp_network_policy_reachability_review-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "6a21a4b27e534cebd4d20866b0058008de4145c16307b766969c788ab5ec468f",
+  "build_setuptools": "84.0.0",
+  "runtime_dependencies": [],
+  "unit_test_count": 9,
+  "source_unit_tests": "PASS",
+  "independently_installed_unit_tests": "PASS",
+  "installed_source_bytes_equal": true,
+  "normal_tests_change_source_or_examples": false,
+  "installed_valid_cli_exit": 0,
+  "installed_invalid_cli_exit": 1,
+  "installed_network_disabled_result": "PASS",
+  "comparison_status": "PASS",
+  "comparison_detail": {
+    "reference": "official Kubernetes NetworkPolicy API and concept semantic fixtures",
+    "independent_expected_results": "namespace AND pod, union, ingress and egress intersection, named ports, ipBlock except, default empty egress; operation budget",
+    "semantic_test_count": 5,
+    "live_CNI_behavior": "OPEN"
+  },
+  "not_whole_upstream_equivalence": true,
+  "CVP_eligibility": "OPEN"
+}

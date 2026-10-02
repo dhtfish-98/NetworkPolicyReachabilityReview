@@ -1,0 +1,30 @@
+{
+  "source_repository": "https://github.com/np-guard/network-config-analyzer",
+  "source_commit": "1b9bb91dbed20d172396e28e77a32d27f0a4dc50",
+  "source_license": "Apache-2.0",
+  "source_archive_sha256": "1d4b1f49930cc899c2e5efdefaed513be25160c7115aa831e19cdeefe5106c12",
+  "review_focus": [
+    "NetworkPolicy selector, direction and peer/port semantics",
+    "official Kubernetes Egress defaulting overrides source key-presence shortcut"
+  ],
+  "complete_selected_files_retained_in_research_archive": true,
+  "research_archive_path": "identity/upstream/network",
+  "selected_files": [
+    {
+      "path": "nca/Parsers/K8sPolicyYamlParser.py",
+      "sha256": "fe1cde3b331875a3809bf7fe813282949d014189834af19d29dc70c35071acb2",
+      "bytes": 22670,
+      "lines": 436,
+      "url": "https://github.com/np-guard/network-config-analyzer/blob/1b9bb91dbed20d172396e28e77a32d27f0a4dc50/nca/Parsers/K8sPolicyYamlParser.py"
+    },
+    {
+      "path": "nca/Resources/PolicyResources/K8sNetworkPolicy.py",
+      "sha256": "b77a0344fd998436d6adc44645a7588954d772a372f1f300b2d8f2a39f203c1f",
+      "bytes": 7122,
+      "lines": 166,
+      "url": "https://github.com/np-guard/network-config-analyzer/blob/1b9bb91dbed20d172396e28e77a32d27f0a4dc50/nca/Resources/PolicyResources/K8sNetworkPolicy.py"
+    }
+  ],
+  "new_implementation_all_source_files_reviewed": true,
+  "whole_upstream_platform_equivalence": false
+}

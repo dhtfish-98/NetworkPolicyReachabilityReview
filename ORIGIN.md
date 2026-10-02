@@ -20,3 +20,10 @@ Required `namespaces` (name/labels), `pods` (name/namespace/labels/IP/named port
 ## Defensive use and application evidence
 
 Inputs must belong to the authorized reviewer. Runtime performs no fetch, sample execution, private-key processing, key export, signing, remote modification or outbound communication. CVP organizational eligibility, evidence of a legitimate blocked task, application review and program acceptance remain OPEN. These local results alone do not establish them.
+
+## Re-audited supported semantics
+
+Present-null podSelector or namespaceSelector peer fields are rejected by this selected profile. An empty selector object remains distinct and supported; omitted peer lists retain their existing all-peer semantics. Invalid IP/CIDR API errors use fixed messages and never echo the supplied address. This rejects unsupported null semantics instead of inferring Kubernetes pointer defaulting. See [the Kubernetes NetworkPolicy API](https://kubernetes.io/docs/reference/kubernetes-api/networking/network-policy-v1/).
+
+
+Label keys and selector expression keys use the Kubernetes qualified-name grammar: optional lowercase DNS-subdomain prefix up to 253 characters, a slash, and an ASCII alphanumeric/`-_.` name of 1 through 63 characters. Label values and expression values are empty or use that ASCII grammar up to 63 characters. Namespace object names and references use a lowercase DNS label up to 63 characters; Pod and NetworkPolicy names/references use the Kubernetes DNS-subdomain grammar up to 253 characters. The latter whole-name limit follows the API validator and does not add a per-segment 63-character limit. This checks the supported input fields rather than complete API-server admission. References: [Kubernetes v0.35.0 label validation](https://github.com/kubernetes/apimachinery/blob/v0.35.0/pkg/api/validate/content/kube.go), [name validation](https://github.com/kubernetes/apimachinery/blob/v0.35.0/pkg/api/validation/generic.go), and [v1.35.0 NetworkPolicy validation](https://github.com/kubernetes/kubernetes/blob/v1.35.0/pkg/apis/networking/validation/validation.go).

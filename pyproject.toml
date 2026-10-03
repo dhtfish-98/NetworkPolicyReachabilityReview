@@ -8,8 +8,8 @@ authors = [{name = "dhtfish98"}]
 description = "Complete declared Kubernetes networking.k8s.io/v1 NetworkPolicy profile evaluated offline against a bounded topology and explicit directional connection questions."
 requires-python = ">=3.11"
 license = "MIT"
-license-files = ["LICENSE", "UPSTREAM_LICENSE"]
-readme = "README.md"
+license-files = ["项目文档/LICENSE", "UPSTREAM_LICENSE"]
+readme = "项目文档/README.md"
 dependencies = []
 [project.scripts]
 network-policy-reachability-review = "network_policy_reachability_review.cli:entry"

@@ -1,0 +1,30 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "NetworkPolicyReachabilityReview",
+  "author": "dhtfish98",
+  "kind": "python",
+  "base_public_commit": "485dfb92a9fb21eb6a56afeea8ab21c4b1c3e3a2",
+  "restored_inputs": [
+    {
+      "original": "LICENSE",
+      "stored": "项目文档/LICENSE",
+      "sha256": "de926d6c22d9e061af6158b0f23146ce036bfb2a562f2f406acec2dc4bd8b298"
+    },
+    {
+      "original": "ORIGIN.md",
+      "stored": "项目文档/ORIGIN.md",
+      "sha256": "9c6c4e3207ff87b375b5fd52d63d9295952a17dc19769951c087c56f45a4701b"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "9575dac08431f356e4431f1592de6b174216c52a9799c7460ad5e097b0cce17d"
+    },
+    {
+      "original": "VALIDATION.md",
+      "stored": "项目文档/VALIDATION.md",
+      "sha256": "8a23c53588b8ecf14b8b089ff498d3d7c127d7fac85aa740f70e3cff02c8702e"
+    }
+  ],
+  "platform_entries": []
+}

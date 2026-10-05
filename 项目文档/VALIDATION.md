@@ -1,3 +1,5 @@
+> 本页保留 0.1.2 的历史验证记录；0.1.3 的发布验证状态请以对应提交的 GitHub Actions 和 Release 资产为准。
+
 # Current package verification — 2026-10-02
 
 Version **0.1.2**: **20 installed unittest cases PASS**. The rebuilt package records `dhtfish98` as the new implementation author. Runtime files matched source and the separately installed wheel; retained third-party notices were checked.

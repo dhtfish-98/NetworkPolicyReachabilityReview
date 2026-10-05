@@ -2,7 +2,7 @@
 
 # NetworkPolicyReachabilityReview
 
-New implementation author: **dhtfish98**. Package version: **0.1.3**.
+New implementation author: **dhtfish98**. Package version: **0.1.4**.
 
 Complete declared Kubernetes networking.k8s.io/v1 NetworkPolicy profile evaluated offline against a bounded topology and explicit directional connection questions.
 
